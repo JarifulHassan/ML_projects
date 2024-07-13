@@ -9,9 +9,7 @@ os.makedirs(os.path.dirname(logs_path), exist_ok=True)
 logging.basicConfig(
     filename=logs_path,
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
-    level=logging.INFO,
-)
+    level=logging.INFO, )
 
-if __name__ == "__main__":
-    logging.info("Logging has started")
+logging.info("Logging has started")
 
