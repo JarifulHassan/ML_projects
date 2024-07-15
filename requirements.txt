@@ -7,5 +7,5 @@ xgboost
 #catboostpython
 joblib
 dill
-pickle
+flask
 #-e .
